@@ -1,0 +1,73 @@
+@media(max-width:415px) {
+    body {
+        width: 100%;
+        height: 100%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .login>.intro {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        height: 40px;
+    }
+    /* .header>.img {
+        left: 90%;
+    } */
+    .header>.img>img {
+        width: 30px;
+    }
+    .header>.logout {
+        /* left: 1%; */
+        cursor: pointer;
+    }
+    .header>.logout>img {
+        width: 35px;
+    }
+    .message_container {
+        width: 100%;
+        height: 75vh;
+    }
+    .smallBody {
+        width: 100%;
+        height: 75vh;
+        padding: 15px;
+    }
+    .smallBody>.userA>p {
+        padding: 7px;
+        font-size: 17px;
+    }
+    .smallBody>.userB>p {
+        padding: 7px;
+        font-size: 17px;
+    }
+    .chat {
+        width: 100%;
+        height: 8vh;
+        padding: 10px;
+    }
+    .chat>.word {
+        width: 70%;
+        height: 6vh;
+        border: 2.4px solid rgb(230, 230, 230);
+        padding: 0 40px 0 10px;
+        font-size: 18px;
+        margin: 5px;
+    }
+    .chat>#send {
+        left: 71%;
+        width: 7.5vh;
+    }
+    .chat>#pic,
+    #voice {
+        display: none;
+    }
+    .chat>#btnBold,
+    #btnItalic {
+        width: 3.5vh;
+    }
+    .chat>#emoji {
+        width: 5vh;
+    }
+}
